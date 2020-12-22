@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style> 
+        #topbar{
+                        background-color: lightblue;
+                        padding: 15px;
+                        text-align: center;
+                        
+                    }
+                    .first-item{
+                        display: inline;
+                        font-size: 25px;
+                        color: white;
+                        padding: 20px
+                        
+                    }
+                    form{
+                text-align: center;
+                background-color: white;
+                width:600px;
+                margin-left: auto;
+                margin-right: auto;
+                border: 1px solid #ccc;
+            }
+            #form-heading{
+                text-align: center;
+                padding-top: 56px;
+                padding-bottom: 32px;
+                font-size: 32px;
+            }
+            .inputbox{
+                font-size: 18px;
+                padding-bottom: 10px;
+                margin-bottom: 36px;
+                border: 0;
+                border-bottom: 1px solid #ccc;
+                width: 100%;
+            }
+            #inputoutside{
+                padding-top: 60px;
+                padding-left: 80px;
+                padding-right: 80px;
+                padding-bottom: 40px;
+            }
+            .submit{
+                font-size: 30px;
+                color: white;
+                background-color: blue;
+            }
+        </style>
+    </head>
+    <body style="margin: 0; background-color: lightgray;">
+        <div id ="topbar">
+            <ul>
+                <li class="first-item" ><a href="finalproject.html">Trips</a></li>
+                <li class="first-item" ><a href="aboutmepage.html">About</a></li>
+                <li class="first-item" ><a href="contactme.html">Contact</a></li>
+            </ul>
+        </div>
+        <h1 id="form-heading"> Want to come on my next trip?</h1>
+        <form>
+            
+            <div id = "inputoutside">
+                <div>
+                    <input class = "inputbox"type="text" name="full name" placeholder="Full Name">
+                </div>
+                <div>
+                    <input class = "inputbox"type="email" name="Email" placeholder="Email Address">
+                </div>
+                <div>
+                    <input class = "inputbox"type="tel" name="phone number" placeholder="Phone Number">
+                </div>
+                <div >
+                    <input class = "submit" type="submit" value="Submit">
+                </div>
+            </div>
+        </form>
+    </body>
+</html>
